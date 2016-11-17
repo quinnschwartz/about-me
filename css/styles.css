@@ -33,15 +33,24 @@ p {
 
 .column1 {
   float: left;
-  width: 40%;
+  width: 45%;
   font-size: 20px;
   margin-left: 5%;
+  /*margin-left: 5%;*/
 }
+
+
 
 .column2 {
   float: right;
-  width: 40%;
-  margin-right: 5%;
+  width: 50%;
+  text-align: center;
+  /*margin-right: 5%;*/
+}
+
+#photos {
+  text-align: left;
+  margin-left: 5%;
 }
 
 .icon {
@@ -67,6 +76,7 @@ a:hover {
   background-color: #f744aa;
   padding: 10px;
   width: 90px;
+  margin-left: 3%;
 }
 
 a {
